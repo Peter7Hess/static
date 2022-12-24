@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Upload to IBMCloud') {
       steps {
-          sh 'echo "Hello World with IBMCloud creds"'
+          sh 'echo "Hello World with IBM Cloud creds"'
       }
     }
   }
